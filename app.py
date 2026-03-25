@@ -5,6 +5,7 @@ import re
 import hashlib
 from psycopg2.extras import execute_values
 from groq import Groq
+import os
 
 # --- CONFIG ---
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
